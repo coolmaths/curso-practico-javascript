@@ -91,3 +91,31 @@ function calculaAreaDelCirculo(){
     const area=areaCirculo(value);
     alert(area)
 }
+
+function calculaAlturaDelTriangulo(){
+    const lado1=document.getElementById("InputL1");
+    const value1=parseFloat(lado1.value);
+    const lado2=document.getElementById("InputL2");
+    const value2=parseFloat(lado2.value);
+    const lado3=document.getElementById("InputL3");
+    const value3=parseFloat(lado3.value);
+    //let altura="No es un triangulos isos"
+    if (value1===value2){
+        let altura=Math.sqrt(value1*value1-(value3*value3/4));
+        alert(altura)
+        
+    }else if (value2===value3){
+        let altura=Math.sqrt(value2*value2-(value1*value1/4));
+        alert(altura)
+        
+    }else if (value1===value3){
+        let altura=Math.sqrt(value1*value1-(value2*value2/4));
+        alert(altura)
+        
+    }else{
+        let altura="No es un triángulo isosceles";
+        alert(altura)
+        
+    };
+    
+}
