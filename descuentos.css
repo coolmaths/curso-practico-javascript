@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 67.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    
+}
+header h1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+header p{
+    background-color: beige;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+main{
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main h2{
+    justify-content: center;
+}
+main form{
+    width: 40%;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+main form label{
+    height: 30px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+main form input{
+    height: 25px;
+}
+main form button{
+    height: 1.5rem;
+}
+main form p{
+    height: 1.5rem;
+}
