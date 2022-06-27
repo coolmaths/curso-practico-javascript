@@ -24,6 +24,9 @@ function onClickCoupon(){
     const priceValue=inputPrice.value;
     const inputCoupon=document.getElementById("inputCoupon");
     const Coupon=inputCoupon.value;
+    if (!coupons.includes(Coupon)){
+        alert("el cupón "+Coupon+" no es válido")
+    }
     switch(Coupon){
         case coupons[0]:
             descuento=30;
