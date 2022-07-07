@@ -55,10 +55,10 @@ const medianaTop10Col=medianaSalarios(salariosColTop10);
 
 console.log(
     //colombia,
-    //salariosCol1,
+    salariosCol1,
     //salariosCol,
     //salariosColSorted,
     //salariosColTop10,
     //medianageneralCol,
-    medianaTop10Col,
+    //medianaTop10Col,
 )
